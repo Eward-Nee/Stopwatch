@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(13, 13, 19);
+}
+
+header {
+    color: tomato;
+}
+
+main {
+    color: rgb(255, 164, 80);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#StopwatchContainer {
+    text-align: center;
+    align-content: center;
+    border: 10px solid skyblue;
+    background-color: rgb(73, 99, 100);
+    width: 50vw;
+    height: 10%;
+    font-size: 4em;
+    border-radius: 50px;
+
+    /* Centering a div 
+    transform: translateX(13%);
+    */
+}
+
+button {
+    font-size: 1em;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(182, 182, 199);
+}
+
+footer {
+    color: wheat;
+    position: static;
+    clear: both;
+}
+
+#email {
+    color: aqua;
+}
+
+#navbar {
+    background-color: gray
+}
+
+@media screen and (max-width:700px) {
+    #StopwatchContainer {
+        font-size: 1.8em;
+    }
+}
